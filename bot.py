@@ -10,7 +10,9 @@ import random
 import logging
 import os
 
-os.environ['TOKEN']
+#Read env variables
+
+TOKEN = os.environ['TOKEN']
 os.environ['CHANNEL_NAME']
 os.environ['MIN_HOUR']
 os.environ['MAX_HOUR']
