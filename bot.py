@@ -7,7 +7,6 @@ import time
 from datetime import datetime
 from itertools import chain
 import random
-from consts import *
 import logging
 import os
 
