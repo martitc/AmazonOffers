@@ -13,10 +13,10 @@ import os
 #Read env variables
 
 TOKEN = os.environ['TOKEN']
-os.environ['CHANNEL_NAME']
-os.environ['MIN_HOUR']
-os.environ['MAX_HOUR']
-os.environ['PAUSE_MINUTES']
+CHANNEL_NAME = os.environ['CHANNEL_NAME']
+MIN_HOUR = os.environ['MIN_HOUR']
+MAX_HOUR = os.environ['MAX_HOUR']
+PAUSE_MINUTES = os.environ['PAUSE_MINUTES']
 
 
 logging.basicConfig(level=logging.INFO)
